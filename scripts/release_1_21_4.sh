@@ -3,7 +3,7 @@
 set -e
 
 RELEASE_PREFIX="bitzero-online_pack"
-RELEASE_SUFFIX="1-21-5"
+RELEASE_SUFFIX="1-21-4"
 TARGET_PATH_BASE="./target/pack/"
 COMBAT_WEAPONRY_PLUS=1
 COMBAT_WEAPONRY_PLUS_RP_URL="https://www.dropbox.com/scl/fi/dhgubahgx3z0phg4wnbw3/cwp-texture-pack-1.5.7.zip?rlkey=cxtqp9575bk28qr90vyxb2tdv&dl=1"
@@ -23,7 +23,7 @@ mkdir -p target/workingpack/assets/
 cp -a assets/* target/workingpack/assets/
 
 # Copy metadata
-cp pack_1_21_5.mcmeta target/workingpack/pack.mcmeta
+cp pack_1_21_4.mcmeta target/workingpack/pack.mcmeta
 cp pack.png target/workingpack/
 
 # Combat Weaponry Plus Injection
