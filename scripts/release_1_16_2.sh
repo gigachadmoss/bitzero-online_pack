@@ -5,7 +5,7 @@ set -e
 RELEASE_PREFIX="bitzero-online_pack"
 RELEASE_SUFFIX="1-16-2"
 TARGET_PATH_BASE="./target/pack/"
-COMBAT_WEAPONRY_PLUS=0
+COMBAT_WEAPONRY_PLUS=1
 COMBAT_WEAPONRY_PLUS_RP_URL="https://www.dropbox.com/scl/fi/dhgubahgx3z0phg4wnbw3/cwp-texture-pack-1.5.7.zip?rlkey=cxtqp9575bk28qr90vyxb2tdv&dl=1"
 VIABACKWARDS_PLUS=1
 VIABACKWARDS_PLUS_RP_URL="https://cdn.modrinth.com/data/v7n1ZsFg/versions/KjEwUQhc/ViaBackwards-Plus.zip"

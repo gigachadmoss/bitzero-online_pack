@@ -5,7 +5,7 @@ set -e
 RELEASE_PREFIX="bitzero-online_pack"
 RELEASE_SUFFIX="1-20-0"
 TARGET_PATH_BASE="./target/pack/"
-COMBAT_WEAPONRY_PLUS=0
+COMBAT_WEAPONRY_PLUS=1
 COMBAT_WEAPONRY_PLUS_RP_URL="https://www.dropbox.com/scl/fi/dhgubahgx3z0phg4wnbw3/cwp-texture-pack-1.5.7.zip?rlkey=cxtqp9575bk28qr90vyxb2tdv&dl=1"
 
 TARGET_PATH="${TARGET_PATH_BASE}/${RELEASE_PREFIX}_${RELEASE_SUFFIX}.zip"
