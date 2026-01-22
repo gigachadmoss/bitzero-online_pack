@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 1210005,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/hoe_pris"
+                }
+            },
+            {
+                "threshold": 1234567,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/godsword"
+                }
+            },
+            {
+                "threshold": 6969420,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/gottem"
+                }
+            }
+        ]
+    }
+}

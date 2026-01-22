@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_pickaxe"
+        },
+        "entries": [
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/pick_obs"
+                }
+            },
+            {
+                "threshold": 1210002,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/pickaxe_pris"
+                }
+            }
+        ]
+    }
+}

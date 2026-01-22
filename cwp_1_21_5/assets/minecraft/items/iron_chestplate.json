@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_chestplate"
+        },
+        "entries": [
+            {
+                "threshold": 1231234,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/redc"
+                }
+            },
+            {
+                "threshold": 5553332,
+                "model": {
+                    "type": "model",
+                    "model": "item/wither/chestplate_wither"
+                }
+            }
+        ]
+    }
+}

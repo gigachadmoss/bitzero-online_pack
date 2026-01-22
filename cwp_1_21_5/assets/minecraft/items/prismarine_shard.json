@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/prismarine_shard"
+        },
+        "entries": [
+            {
+                "threshold": 9999901,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/ingot_pris"
+                }
+            }
+        ]
+    }
+}

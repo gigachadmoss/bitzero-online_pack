@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/platform_icons.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "\uF4A0\uF4A1\uF4A2\uF4A3\uF4A4"
+            ]
+        }
+    ]
+}

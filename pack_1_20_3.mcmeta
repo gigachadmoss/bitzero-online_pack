@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "bitzero.online mandatory resources",
+    "pack_format": 22,
+    "supported_formats": [22, 42],
+    "min_format": 22,
+    "max_format": 42
+  }
+}

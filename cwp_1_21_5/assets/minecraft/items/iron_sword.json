@@ -1,0 +1,131 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_sword"
+        },
+        "entries": [
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/fish"
+                }
+            },
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/longsword_iron"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/katana_iron"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/scythe_iron"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/spear_iron"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/rapier_iron"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/knife_iron"
+                }
+            },
+            {
+                "threshold": 1000007,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/chorus"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/saber_iron"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron/cleaver_iron"
+                }
+            },
+            {
+                "threshold": 4000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/longsword_bone"
+                }
+            },
+            {
+                "threshold": 4000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/katana_bone"
+                }
+            },
+            {
+                "threshold": 4000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/scythe_bone"
+                }
+            },
+            {
+                "threshold": 4000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/spear_bone"
+                }
+            },
+            {
+                "threshold": 4000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/rapier_bone"
+                }
+            },
+            {
+                "threshold": 4000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/bone/knife_bone"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron_sword"
+                }
+            }
+        ]
+    }
+}

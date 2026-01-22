@@ -1,0 +1,264 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_sword"
+        },
+        "entries": [
+            {
+                "threshold": 5000,
+                "model": {
+                    "type": "model",
+                    "model": "item/fire/flamesword"
+                }
+            },
+            {
+                "threshold": 5001,
+                "model": {
+                    "type": "model",
+                    "model": "item/fire/flamespear"
+                }
+            },
+            {
+                "threshold": 5002,
+                "model": {
+                    "type": "model",
+                    "model": "item/fire/flameaxe"
+                }
+            },
+            {
+                "threshold": 5003,
+                "model": {
+                    "type": "model",
+                    "model": "item/fire/flamecleaver"
+                }
+            },
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/longsword_netherite"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/katana_netherite"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/scythe_netherite"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/spear_netherite"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/rapier_netherite"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/knife_netherite"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/saber_netherite"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite/cleaver_netherite"
+                }
+            },
+            {
+                "threshold": 1200001,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/longsword_pris"
+                }
+            },
+            {
+                "threshold": 1200002,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/katana_pris"
+                }
+            },
+            {
+                "threshold": 1200003,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/scythe_pris"
+                }
+            },
+            {
+                "threshold": 1200004,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/spear_pris"
+                }
+            },
+            {
+                "threshold": 1200005,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/rapier_pris"
+                }
+            },
+            {
+                "threshold": 1200006,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/knife_pris"
+                }
+            },
+            {
+                "threshold": 1200010,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/saber_pris"
+                }
+            },
+            {
+                "threshold": 1200021,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/cleaver_pris"
+                }
+            },
+            {
+                "threshold": 1210001,
+                "model": {
+                    "type": "model",
+                    "model": "item/pris/sword_pris"
+                }
+            },
+            {
+                "threshold": 1222223,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/pvessel"
+                }
+            },
+            {
+                "threshold": 1222224,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/pinvessel"
+                }
+            },
+            {
+                "threshold": 1222225,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/pcursvessel"
+                }
+            },
+            {
+                "threshold": 1222226,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/awakvessel"
+                }
+            },
+            {
+                "threshold": 1222227,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/awakvessell"
+                }
+            },
+            {
+                "threshold": 1222228,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/bruh"
+                }
+            },
+            {
+                "threshold": 1222229,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/bruhh"
+                }
+            },
+            {
+                "threshold": 2222223,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/vessel"
+                }
+            },
+            {
+                "threshold": 2222224,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/invessel"
+                }
+            },
+            {
+                "threshold": 2222225,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/cursvessel"
+                }
+            },
+            {
+                "threshold": 2222226,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/awakvessel"
+                }
+            },
+            {
+                "threshold": 2222227,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/awakvessell"
+                }
+            },
+            {
+                "threshold": 2222228,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/bruh"
+                }
+            },
+            {
+                "threshold": 2222229,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/bruhh"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite_sword"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/wooden_sword"
+        },
+        "entries": [
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "item/misc/frostcharm"
+                }
+            },
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/longsword_wood"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/katana_wood"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/scythe_wood"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/spear_wood"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/rapier_wood"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/knife_wood"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/saber_wood"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/wood/cleaver_wood"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/wooden_sword"
+                }
+            }
+        ]
+    }
+}

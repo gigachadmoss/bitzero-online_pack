@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/elytra"
+        },
+        "entries": [
+            {
+                "threshold": 1560001,
+                "model": {
+                    "type": "model",
+                    "model": "item/elytra_icons/eelytra"
+                }
+            }
+        ]
+    }
+}

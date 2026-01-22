@@ -1,0 +1,75 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/stone_sword"
+        },
+        "entries": [
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/longsword_stone"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/katana_stone"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/scythe_stone"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/spear_stone"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/rapier_stone"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/knife_stone"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/saber_stone"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone/cleaver_stone"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/stone_sword"
+                }
+            }
+        ]
+    }
+}

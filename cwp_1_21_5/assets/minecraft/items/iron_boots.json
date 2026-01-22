@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_boots"
+        },
+        "entries": [
+            {
+                "threshold": 5553334,
+                "model": {
+                    "type": "model",
+                    "model": "item/wither/boots_wither"
+                }
+            }
+        ]
+    }
+}

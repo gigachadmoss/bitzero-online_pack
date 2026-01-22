@@ -1,0 +1,124 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_sword"
+        },
+        "entries": [
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamondv"
+                }
+            },
+            {
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamondv"
+                }
+            },
+            {
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamondv"
+                }
+            },
+            {
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamondv"
+                }
+            },
+            {
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/ckatana_diamond"
+                }
+            },
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/longsword_diamond"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamond"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/scythe_diamond"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/spear_diamond"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/rapier_diamond"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/knife_diamond"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/saber_diamond"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/cleaver_diamond"
+                }
+            },
+            {
+                "threshold": 2000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/katana_diamondv"
+                }
+            },
+            {
+                "threshold": 2000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond/scythe_diamondv"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond_sword"
+                }
+            }
+        ]
+    }
+}

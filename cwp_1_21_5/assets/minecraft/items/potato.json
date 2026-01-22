@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/potato"
+        },
+        "entries": [
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/cut"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/flameparticle_sword"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/flameparticle_spear"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/flameparticle_axe"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/flameparticle_cleaver"
+                }
+            },
+            {
+                "threshold": 9873221,
+                "model": {
+                    "type": "model",
+                    "model": "item/particles/test"
+                }
+            }
+        ]
+    }
+}

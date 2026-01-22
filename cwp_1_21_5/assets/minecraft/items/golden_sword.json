@@ -1,0 +1,138 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/golden_sword"
+        },
+        "entries": [
+            {
+                "threshold": 1000001,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/longsword_gold"
+                }
+            },
+            {
+                "threshold": 1000002,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/katana_gold"
+                }
+            },
+            {
+                "threshold": 1000003,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/scythe_gold"
+                }
+            },
+            {
+                "threshold": 1000004,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/spear_gold"
+                }
+            },
+            {
+                "threshold": 1000005,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/rapier_gold"
+                }
+            },
+            {
+                "threshold": 1000006,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/knife_gold"
+                }
+            },
+            {
+                "threshold": 1000010,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/saber_gold"
+                }
+            },
+            {
+                "threshold": 1000011,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/longsword_em"
+                }
+            },
+            {
+                "threshold": 1000012,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/katana_em"
+                }
+            },
+            {
+                "threshold": 1000013,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/scythe_em"
+                }
+            },
+            {
+                "threshold": 1000014,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/spear_em"
+                }
+            },
+            {
+                "threshold": 1000015,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/rapier_em"
+                }
+            },
+            {
+                "threshold": 1000016,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/knife_em"
+                }
+            },
+            {
+                "threshold": 1000017,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/sword_em"
+                }
+            },
+            {
+                "threshold": 1000021,
+                "model": {
+                    "type": "model",
+                    "model": "item/gold/cleaver_gold"
+                }
+            },
+            {
+                "threshold": 1000030,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/saber_em"
+                }
+            },
+            {
+                "threshold": 1000031,
+                "model": {
+                    "type": "model",
+                    "model": "item/em/cleaver_em"
+                }
+            },
+            {
+                "threshold": 9999997,
+                "model": {
+                    "type": "model",
+                    "model": "item/golden_sword"
+                }
+            }
+        ]
+    }
+}

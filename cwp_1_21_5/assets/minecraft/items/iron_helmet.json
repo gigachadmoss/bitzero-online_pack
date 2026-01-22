@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_helmet"
+        },
+        "entries": [
+            {
+                "threshold": 5553331,
+                "model": {
+                    "type": "model",
+                    "model": "item/wither/helmet_wither"
+                }
+            }
+        ]
+    }
+}
